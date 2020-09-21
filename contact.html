@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Academics &mdash; Website by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+  <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+  <link rel="stylesheet" href="assets/css/styles_contact.css">
+  <link rel="stylesheet" href="css/navhover.css">
+  <link rel="stylesheet" href="css/enquiryicon.css">
+  <style>
+  .nav-link{
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 14px;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="icon-bar">
+    <a href="#"><img src="./images/phone.svg" width="40px" data-toggle="modal" data-target="#modalEnquiryForm"></a>
+   </div>
+  <div class="modal fade formmod" id="modalEnquiryForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" style="height: max-content;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold" style="color: black;">Enquiry Now</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <form method="POST" action="./test.php">
+
+          <div class="md-form mb-2">
+            <input type="text" id="name" name="name" placeholder="Name" class="form-control validate">
+          </div>
+          <div class="md-form mb-2">
+            <input type="email" id="email" name="email" placeholder="Email" class="form-control validate">
+          </div>
+
+          <div class="md-form mb-2">
+
+            <input type="phone" id="mobile" name="mobile" placeholder="Phone" class="form-control validate">
+
+          </div>
+          <div class="md-form mb-2">
+            <textarea id="message" name="message" placeholder="Message" class="form-control validate"></textarea>
+          </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-deep-orange" style="background-color: orangered; width: 100%;">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  
+  
+  
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container">
+
+    <div class="site-logo">
+      <a href="index.html" class="d-block">
+        <img src="images/logo.png" alt="Image" class="img-link">
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown dropdownl">
+            <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" style="font-size: 14px;"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses
+            </a>
+            <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="essential.html">Essential</a>
+              <a class="dropdown-item" href="innovator.html">Innovator</a>
+              <a class="dropdown-item" href="stimulator.html">Stimulator</a>
+              <a class="dropdown-item" href="prominent.html">Prominent</a>
+              <a class="dropdown-item" href="personality.html">Personality Development</a>
+              <a class="dropdown-item" href="vocab.html">Vocab Booster</a>
+              <a class="dropdown-item" href="interview.html">Interview Skills</a>
+              <a class="dropdown-item" href="digital.html">Digital Marketing</a>
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" data-toggle="modal" data-target="#modalEnquiryForm">Book Your demo</a>
+          </li>
+          <li class="nav-item dropdown dropdownl" style="font-size: 14px;">
+            <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" style="font-size: 14px;"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Batches</a>
+            
+
+            <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Batch-1 : <h6 style="color:#7D8597;font-size: 13px;">10AM - 12PM</h6></a>
+              <a class="dropdown-item" href="#">Batch-2 : <h6 style="color:#7D8597;font-size: 13px;">2PM - 4PM</h6></a>
+              
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-primary my-2 my-sm-0 btn" href="#" data-toggle="modal" style="font-size: 14px;color: white;font-weight: 600;" data-target="#modalEnquiryForm" data-target="#modalEnquiryForm">Enquiry now</a>
+          </li>
+        </ul>
+        
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+    <div class="custom-breadcrumns border-bottom">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <span class="mx-3 icon-keyboard_arrow_right"></span>
+        <span class="current">Contact</span>
+      </div>
+    </div>
+
+    <div class="container" style="color: black;">
+      <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>Contact Information</h4><button type="button" class="close" data-dismiss="modal"
+                aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <form id="contactForm" action="javascript:void();" method="get" type="hidden"><input class="form-control" type="hidden"
+                  name="Introduction" value="This email was sent from www.mywebsite.com"><input class="form-control"
+                  type="hidden" name="subject" value="My Contact Form"><input class="form-control" type="hidden"
+                  name="to" value="email@mywebsite.com">
+                <div class="form-row">
+                  <div class="col-md-6">
+                    <div id="modal-successfail"></div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6" id="modal-message">
+                    <fieldset>
+                      <legend><i class="fa fa-envelope"></i> Contact Us</legend>
+                    </fieldset>
+                    <div class="form-group has-feedback"><label for="modal_from_name">Name</label><input
+                        class="form-control" type="text" id="modal_from_name" tabindex="-1" name="from_name" required=""
+                        placeholder="Full Name"></div>
+                    <div class="form-group has-feedback"><label for="modal_from_email">Email</label><input
+                        class="form-control" type="email" id="modal_from_email" name="from_email" required=""
+                        placeholder="Email Address"></div>
+                    <div class="form-row">
+                      <div class="col-sm-6">
+                        <div class="form-group has-feedback"><label for="modal_from_phone">Phone</label><input
+                            class="form-control" type="text" id="modal_from_phone" name="from_phone"
+                            placeholder="Primary Phone"></div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group"><label for="modal_calltime">Best Time to Call</label><select
+                            class="form-control" id="modal_calltime" name="Call Time">
+                            <optgroup label="This is a group">
+                              <option value="12" selected="">This is item 1</option>
+                              <option value="13">This is item 2</option>
+                              <option value="14">This is item 3</option>
+                            </optgroup>
+                          </select></div>
+                      </div>
+                    </div>
+                    <div class="form-group"><label for="modal_comments">Comments</label><textarea class="form-control"
+                        id="modal_comments" name="Comments" placeholder="Enter comments here" rows="5"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send <i
+                          class="fa fa-chevron-circle-right"></i></button></div>
+                    <hr>
+                  </div>
+                  <div class="col-md-6">
+                    <fieldset>
+                      <legend> <i class="fa fa-location-arrow"></i> Locate Us</legend>
+                    </fieldset>
+                    <div class="form-row">
+                      <div class="col-md-12">
+                        <div class="static-map"><a
+                            href="https://www.google.com/maps/place/2+15th+St+NW+Washington+DC+20024"
+                            target="_blank"><img class="img-fluid"
+                              src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12"
+                              alt="Google Map of Washington Monument"></a></div>
+                      </div>
+                      <div class="col-sm-6">
+                        <fieldset>
+                          <legend><i class="fa fa-envelope"></i> Contact Us</legend>
+                        </fieldset>
+                        <div><span><strong>Name</strong></span></div>
+                        <div><span>email@address.com</span></div>
+                        <div><span>www.awebsite.com</span></div>
+                        <hr>
+                      </div>
+                      <div class="col-sm-6">
+                        <fieldset>
+                          <legend><i class="fa fa-location-arrow"></i> Our Address</legend>
+                        </fieldset>
+                        <div><span><strong>Office Name</strong></span></div>
+                        <div><span>55 Icannot Dr.</span></div>
+                        <div><span>Daytona Beach, FL 81500</span></div>
+                        <div><abbr data-toggle="tooltip" data-placement="top"
+                            title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form id="contactForm" action="javascript:void();" method="get"><input class="form-control" type="hidden"
+          name="Introduction" value="This email was sent from www.mywebsite.com"><input class="form-control"
+          type="hidden" name="subject" value="My Contact Form"><input class="form-control" type="hidden" name="to"
+          value="email@mywebsite.com">
+        <div class="form-row">
+          <div class="col-md-6">
+            <div id="successfail"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 col-lg-5 col-xl-5" id="message" style="padding: 30px; margin-left: 5%;">
+            <fieldset>
+              <legend style="font-size: 24px;">Get In Touch</legend>
+              <p style="font-size: 14px;">&nbsp;Will get in touch with you</p>
+            </fieldset>
+            <div class="form-group has-feedback"><input class="form-control" type="text" id="from_name" tabindex="-1"
+                name="from_name" required="" placeholder="Full Name"
+                style="color: black;font-weight: 500;font-size: 12px;"></div>
+            <div class="form-group has-feedback"><input class="form-control" type="email" id="from_email"
+                name="from_email" required="" placeholder="Email Address"
+                style="color: black;font-weight: 500;font-size: 12px;"></div>
+            <div class="form-row">
+              <div class="col-sm-6 col-lg-12 col-xl-12">
+                <div class="form-group has-feedback"><input class="form-control" type="text" id="from_phone"
+                    name="from_phone" placeholder="Primary Phone"
+                    style="color: black;font-weight: 500;font-size: 12px;"></div>
+              </div>
+            </div>
+            <div class="form-group"><textarea class="form-control" rows="2" placeholder="Message"
+                style="font-weight: 500;color: black;font-size: 12px;" required=""></textarea></div>
+            <div class="form-group"><button class="btn btn-primary btn-block card-hover-button" type="submit"
+                style="background-color: #ED3237;border-radius: 5px;font-size: 14px;border: none;">Submit</button></div>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-5"
+            style="background-color: #F16136;padding-left: 45px;padding-top: 10px;padding-bottom: 10px;margin-left: 5%;">
+            <div style="margin-bottom: 10px;">
+              <div class="form-row">
+                <div class="col-sm-6 col-lg-12 col-xl-12">
+                  <div>
+                    <div><span style="color: white;font-size: 14px;">Email Address<br></span></div>
+                    <div><span style="font-size: 18px;color: white;font-weight: 700;"><strong>prominentnagar@gmail.com</strong></span>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-bottom: 10px;">
+              <div class="form-row">
+                <div class="col-sm-6 col-lg-12 col-xl-12">
+                  <div>
+                    <div><span style="color: white;font-size: 14px;">Phone no<br></span></div>
+                    <div><span style="font-size: 18px;color: white;font-weight: 700;"><strong>+91-8600000069</strong></span></div>
+                    <div><span style="color: white;font-size: 14px;">Telephone no<br></span></div>
+                    <div><span style="font-size: 18px;color: white;font-weight: 700;"><strong>0241-2430069</strong></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="form-row">
+                <div class="col-sm-6 col-lg-12 col-xl-12">
+                  <div>
+                    <div><span style="color: white;font-size: 14px;">Our Head Office<br></span></div>
+                    <div><span style="font-size: 18px;color: white;font-weight: 700;"><strong>H.O. 2nd Floor, Farhat Tower, <br>Opp. C.S.R.D Station Road, 
+                      <br>Ahmednagar - 414001</strong></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="newsletter-subscribe" style="margin-top: 100px;">
+      <div class="container">
+          <div class="intro" style="font-size: 38px;">
+              <h5 style="text-align: center;font-size: 28px;font-weight: 1100;">To Get Latest News &amp; Further Update</h5>
+              <h2 class="text-center" style="font-size:  28px;font-weight: 1000;color: black;"><b>Subscribe Our Newsletter &amp; Download Brochure</b></h2>
+          </div>
+      </div><button class="btn btn-primary card-hover-button" type="button" style="margin: auto;display: block;background-color: #ED3237;border-radius: 10px;border: none;position: relative;height: 40px;width: 400px;font-size: 12px;">Subscribe Now &amp; Download Brochure
+      </button>
+    </div>
+
+
+    <div class="modal fade formmod" id="terms"  role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true" style="overflow: hidden;height:max-content">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold" style="color: black;">Terms and Conditions</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3">
+          
+
+
+          <div class="md-form mb-2">
+            <h5>Enrolling students please note that-</h5>
+            <ul>
+              <li>Fees once paid will not be refunded under any circumstances.</li>
+              <li>If one account is used by multiple individuals, the owner of the account will be subject to legal actions.</li>
+              <li>Piracy of any course materials and/or content is punishable by law.</li>
+              <li>Admission of a student is non-transferable and non-refundable under any circumstances.</li>
+              <li>Balance fees must be cleared on or before the due date.</li>
+              <li>No special batches will be conducted for repeaters.</li>
+            </ul>
+          </div>
+          
+  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    <!-- .site-wrap -->
+    <div class="footer" >
+      <div class="container" style="font-size: 12px;font-weight: normal;">
+        <div class="row">
+          <div class="col-lg-3">
+            <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
+            <p style="color: grey;">Sanmitra colony, Opp Mauli Sankul,<br>
+              Near zhopadi canteen, Savedi,<br>
+              Ahmednagar.</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8350941948606!2d74.72687231485193!3d19.114888987065626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcba7f3c5c6a4b%3A0xbffd89b1cf7ea2ba!2sPROMINENT%20SPOKEN%20ENGLISH%20%26%20DIGITAL%20MARKETING%20INSTITUTE!5e0!3m2!1sen!2sin!4v1594376738237!5m2!1sen!2sin"
+              width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+  
+          
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Online Classes</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="./essential.html" style="color:grey">Essential</a></li>
+              <li><a href="./innovator.html" style="color:grey">Innovator</a></li>
+              <li><a href="./stimulator.html" style="color:grey">Stimulator</a></li>
+              <li><a href="./prominent.html" style="color:grey">Prominent</a></li>
+              <li><a href="./personality.html" style="color:grey">PDW</a></li>
+              <li><a href="./interview.html" style="color:grey">Interview</a></li>
+              <li><a href="./vocab.html" style="color:grey">Vocab</a></li>
+              <li><a href="./digital.html" style="color:grey">Digital Marketing</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Support</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" style="color:grey" data-toggle="modal" data-target="#terms">Terms condition</a></li>
+              <li><a href="#" style="color:grey">Privacy & Policy</a></li>
+              <li><a href="#" style="color:grey">Copyright Issue</a></li>
+              <li><a href="#" style="color:grey">Get Help</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Join Us</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" style="color:grey">Become Teacher</a></li>
+              <li><a href="#" style="color:grey">Become Student</a></li>
+              <li><a href="#" style="color:grey">Become Both</a></li>
+              <li><a href="#" style="color:grey">Partnership</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Company</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="./about.html" style="color:grey">About us</a></li>
+              <li><a href="gallery.html" style="color:grey">Gallery</a></li>
+              <li><a href="./contact.html" style="color:grey">Contact us</a></li>
+            </ul>
+            <br><br><br><bR>
+            <h3 class="footer-heading"><span>Social media</span></h3>
+            <ul class="list-unstyled">
+              <a href="https://www.youtube.com/c/ProminentTrainingInstitute" target="_blank"><i class="fa fa-youtube-play" style="font-size:30px;color:red"></i></a>
+              <a href="https://www.facebook.com/ProminentEnglish/" target="_blank"> <i class="fa fa-facebook offset-1" style="font-size:30px;color:blue"></i></a>
+                <a href="https://instagram.com/prominentspokenenglish?igshid=sa0vr7rt5mcb" target="_blank"><i class="fa fa-instagram offset-1" style="font-size:30px;color:red"></i></a>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-2">
+            <div class="copyright">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="copyright">
+            </div>
+          </div>
+          <div class="col-2">
+  
+          </div>
+          <div class="col-4">
+            <div class="copyright">
+              <p>
+                Designed By <a style="color: #ED3237;">Dinesh Dangare</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    </div>
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+          stroke="#51be78" /></svg></div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+
+
+
+    <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+Popins,bold
+class="popinbold"
+
+Popins,Light
+class="popinlight"
+
+Popins,semiBold
+class="popinboldsemi"
+
+Rubik,Regular
+class="rubikregular"
+
+Rubik,Bold
+class="rubikbold"
+
+
+

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Academics &mdash; Website by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/Testimonials.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navhover.css">
+  <script src="js/media.js"></script>
+  <link rel="stylesheet" href="css/enquiryicon.css">
+  <link rel="stylesheet" href="css/modal.css">
+
+
+  
+
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div class="icon-bar">
+    <a href="#"><img src="./images/phone.svg" width="40px" data-toggle="modal" data-target="#modalEnquiryForm"></a>
+   </div>
+  
+   
+  <div class="modal fade formmod" id="modalEnquiryForm"  role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" style="height: max-content;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold" style="color: black;">Enquiry Now</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <form method="POST" action="./test.php">
+
+          <div class="md-form mb-2">
+            <input type="text" id="name" name="name" placeholder="Name" class="form-control validate">
+          </div>
+          <div class="md-form mb-2">
+            <input type="email" id="email" name="email" placeholder="Email" class="form-control validate">
+          </div>
+
+          <div class="md-form mb-2">
+
+            <input type="phone" id="mobile" name="mobile" placeholder="Phone" class="form-control validate">
+
+          </div>
+          <div class="md-form mb-2">
+            <textarea id="message" name="message" placeholder="Message" class="form-control validate"></textarea>
+          </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-deep-orange" style="background-color: orangered; width: 100%;">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+    
+        <div class="site-logo">
+          <a href="index.html" class="d-block">
+            <img src="images/logo.png" alt="Image" class="img-link">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+    
+              <li class="nav-item dropdown dropdownl">
+                <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses
+                </a>
+                <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="essential.html">Essential</a>
+                  <a class="dropdown-item" href="innovator.html">Innovator</a>
+                  <a class="dropdown-item" href="stimulator.html">Stimulator</a>
+                  <a class="dropdown-item" href="prominent.html">Prominent</a>
+                  <a class="dropdown-item" href="personality.html">Personality Development</a>
+                  <a class="dropdown-item" href="vocab.html">Vocab Booster</a>
+                  <a class="dropdown-item" href="interview.html">Interview Skills</a>
+                  <a class="dropdown-item" href="digital.html">Digital Marketing</a>
+                  <!-- <div class="dropdown-divider"></div> -->
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-toggle="modal" data-target="#modalEnquiryForm">Book Your demo</a>
+              </li>
+              <li class="nav-item dropdown dropdownl">
+                <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Batches</a>
+                
+    
+                <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Batch-1 : <h6 style="color:#7D8597;font-size: 13px;">10AM - 12PM</h6></a>
+                  <a class="dropdown-item" href="#">Batch-2 : <h6 style="color:#7D8597;font-size: 13px;">2PM - 4PM</h6></a>
+                  
+                  <!-- <div class="dropdown-divider"></div> -->
+                </div>
+    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-primary my-2 my-sm-0 btn" href="#" data-toggle="modal" data-target="#modalEnquiryForm">Enquiry now</a>
+              </li>
+            </ul>
+            
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div>
+      <div style="background-color: #202020; color: aliceblue;">
+        <div class="container">
+          <br>
+          <div style="font-size: small;">
+            <a href="index.html">Home</a>
+            <span class="mx-3 icon-keyboard_arrow_right"></span>
+            <a href="courses.html">Courses</a>
+            <span class="mx-3 icon-keyboard_arrow_right"></span>
+            <span class="current">Personality Development</span>
+          </div>
+          <h3 style="margin: 2%;">Personality Development</h3>
+          <div class="row">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <ul>
+                Ever wondered why an individual can demand attention from people? What makes these people grab our eye balls every time they make an appearance, is their ability to carry themselves gracefully.
+The definition of personality is different for every person but in a general sense the word conveys the idea of your presence making a strong and lasting impact on the people you address.
+Maintaining a good personality inspires confidence in your words and actions amongst your listeners which enables you to grow faster both professionally and personally.
+With our tailor-made personality development course, channelize your inner potential and groom yourself to make a profound impact on the world.
+
+              </ul>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2" style="margin-bottom: 10px; ">
+              <figure class="thumnail">
+                <video width="100%" height="120%" controls loop>
+                  <source src="assets/img/video.mp4" type=video/webm>
+
+                </video>
+                <div class="row">
+                  <div class="col-lg-6 order-1 order-lg-2">
+                    <h6 color="black" size="3">Course Fee</h6>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2">
+                    <h6 color="black" size="3">Select Batch Timings</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 order-1 order-lg-2">
+                    <b>
+                      <h6 color="black" size="3">Rs. 1500 Only</h6>
+                    </b>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2">
+
+                    <select class="form-control">
+                      <option>10AM - 12PM</option>
+                      <option>2PM - 4PM</option>
+                      <!-- <div class="dropdown-divider"></div> -->
+                    </select>
+                  </div>
+                </div>
+                
+                
+
+
+
+
+
+
+
+
+                
+                <button
+                style="align-items:center; background-color: #ED3237; text-align: center; border-radius: 2px;color: white; width: 100%; border: none;"><a
+               style="color: white;"  data-toggle="modal" data-target="#staticBackdrop" onclick="grandtotalPersonality(this)">Enroll
+                  for course</a></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section" style="color: #202020;">
+        <div class="container">
+          <!-- <div class="col-lg-6"> -->
+          <div class="row">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h5>What you'll learn</h5>
+              <ul>
+                <li>Developing a positive mindset and optimistic attitude. Channelizing your thoughts towards engagements that yield fruitful results.</li>
+                <li>Rebuilding your inner traits like confidence, insight and inter-personal skills that strengthens your approach.</li>
+                <li>Creating a framework for your mindset for assertive and continual approach towards your goals and ambitions.</li>
+                <li>Manage your time to increase your productivity, balance your emotional intelligence to perform better and enhance your workplace management skills.</li>
+                <li>Grooming your personal appearance, communication skills and one to one interaction etiquettes.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 3%;">
+            <div class="order-lg-1">
+              <ul><b>
+                Having a great personality makes you a major influencer in your professional and personal community and your presence commands people’s attention.
+The way you present yourself makes a statement about what you truly are, and making a loud and clear statement is the key to growth and competence.
+With this personality development course, we want you to embark on a journey to discovering and bringing forward your best self and polishing it with the right amount of confidence and skills that will help you soar to great heights in your career.</b>
+
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h5>Prerequisites:</h5>
+              <ul>
+                Before enrolling for the course, you are only required to have basic knowledge about the English
+                alphabet and simple sentences.
+              </ul>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials-clean carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x">
+      <div class="container">
+        <div class="intro">
+          <h1 style="color: black;padding-top: 50px;text-align: center;">Enroll Student's <strong>Feedback</strong></h1>
+      </div>
+      <div class="row blog">
+          <div class="col-md-12" style="padding-bottom: 50px;">
+            <ol class="carousel-indicators" style="padding-top: 5px;">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+              <li data-target="#blogCarousel" data-slide-to="2"></li>
+          </ol>
+              <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+    
+                  
+    
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+    
+                      <div class="carousel-item active">
+                        <div class="row people" style="justify-content: center;min-height: 370px;">
+                          <div class="col-md-6 col-lg-4 item">
+                              <div class="box card-hover"><img src="assets/img/Group%20837.svg" style="position: absolute;margin-left: 30%;">
+                                  <p class="description">Prominent has given me a chance to face the
+                                    world. I was shy and introvert. But they helped me
+                                    to gain confidence. Thanks for being a life saver. </p>
+                                  <div class="author"><img class="rounded-circle" src="">
+                                      <h5 class="name"><strong>Bhagyashri Koli</strong></h5>
+                                      <p class="title" style="width: 240px;"></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4 item">
+                              <div class="box card-hover"><img src="assets/img/Group%20837.svg" style="position: absolute;margin-left: 30%;">
+                                  <p class="description">Prominent institute is the best English institute.
+                                    This course helped me to speak English nicely and
+                                    improved my English and communication skills.  
+                                    </p>
+                                  <div class="author"><img class="rounded-circle" src="">
+                                      <h5 class="name"><strong>Sarika Bhandar</strong></h5>
+                                      <p class="title" style="width: 240px;"></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                          <!--.row-->
+                      </div>
+                      <!--.item-->
+    
+                      <div class="carousel-item">
+                        <div class="row people" style="justify-content: center;min-height: 370px;">
+                          <div class="col-md-6 col-lg-4 item">
+                              <div class="box card-hover"><img src="assets/img/Group%20837.svg" style="position: absolute;margin-left: 30%;">
+                                  <p class="description">My speaking is better than before, and my writing
+                                    skills are getting better. This class helped me a lot for
+                                    joining the job in renowned company. Prominent has
+                                    been an important part of my English learning
+                                    development. <br>Thank you.</p>
+                                  <div class="author"><img class="rounded-circle" src="">
+                                      <h5 class="name"><strong>Aarti Lalbegi </strong></h5>
+                                      <p class="title" style="width: 240px;"></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4 item">
+                              <div class="box card-hover"><img src="assets/img/Group%20837.svg" style="position: absolute;margin-left: 30%;">
+                                  <p class="description">Prominent institute is a very good institute for Marathi medium students because here the English is been taught from the root. We learn everything in Prominent i.e Personality development and etc. Please visit and make your future bright. </p>
+                                  <div class="author"><img class="rounded-circle" src="">
+                                      <h5 class="name"><strong>Amol Adhav
+                                      </strong></h5>
+                                      <p class="title" style="width: 240px;"></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                          <!--.row-->
+                      </div>
+    
+    
+    
+    
+                      <div class="carousel-item">
+                        <div class="row people" style="justify-content: center;min-height: 370px;">
+                          <div class="col-md-6 col-lg-4 item">
+                              <div class="box card-hover"><img src="assets/img/Group%20837.svg" style="position: absolute;margin-left: 30%;">
+                                  <p class="description">I would suggest prominent to any one who asks me.
+                                    I have learnt many new concepts at Prominent like
+                                    goal setting. <br><br></p>
+                                  <div class="author"><img class="rounded-circle" src="">
+                                      <h5 class="name"><strong>Awez Sayyed </strong></h5>
+                                      <p class="title" style="width: 240px;"></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4 item">
+                              <div class="box card-hover"><img src="assets/img/Group%20837.svg" style="position: absolute;margin-left: 30%;">
+                                  <p class="description">I am very happy with the facilities provided at Prominent. The
+                                    staff at Prominent is very co-operative. Mostly I got benefit
+                                    by one to one guidance. It really helped me.  </p>
+                                  <div class="author"><img class="rounded-circle" src="">
+                                      <h5 class="name"><strong>Shreetika Sarode
+    
+                                      </strong></h5>
+                                      <p class="title" style="width: 240px;"></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                          <!--.row-->
+                      </div>
+                      <!--.item-->
+    
+                  </div>
+                  <!--.carousel-inner-->
+              </div>
+              <!--.Carousel-->
+    
+          </div>
+          <br>
+          <a class="left carousel-control" href="#blogCarousel" role="button" data-slide="prev">
+            <span class="fa fa-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#blogCarousel" role="button" data-slide="next">
+            <span class="fa fa-chevron-right"></span>
+          </a>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="newsletter-subscribe" style="margin-top: 50px;">
+      <div class="container">
+        <div class="intro" style="font-size: 38px;">
+          <h5 style="text-align: center;font-size: 38px;color: black;">To Get Latest News &amp; Further Update</h5>
+          <h2 class="text-center" style="font-size: 38px; color: black;">Subscribe Our Newsletter &amp; Download
+            Brochure</h2>
+        </div>
+      </div><a href="assets/prom.pdf" download="Prominent English" target="_blank"><button class="btn btn-primary card-hover-button" type="button" style="margin: auto;display: block;background-color: #ED3237;border-radius: 10px;border: none;position: relative;height: 50px;width: 354px;">Subscribe Now &amp; Download Brochure</button></a></div>
+
+      <div class="modal fade formmod" id="terms"  role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true" style="overflow: hidden;height:max-content">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold" style="color: black;">Terms and Conditions</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            
+  
+  
+            <div class="md-form mb-2">
+              <h5>Enrolling students please note that-</h5>
+              <ul>
+                <li>Fees once paid will not be refunded under any circumstances.</li>
+                <li>If one account is used by multiple individuals, the owner of the account will be subject to legal actions.</li>
+                <li>Piracy of any course materials and/or content is punishable by law.</li>
+                <li>Admission of a student is non-transferable and non-refundable under any circumstances.</li>
+                <li>Balance fees must be cleared on or before the due date.</li>
+                <li>No special batches will be conducted for repeaters.</li>
+              </ul>
+            </div>
+            
+    
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
+            <p style="color: grey;">Sanmitra colony, Opp Mauli Sankul,<br>
+              Near zhopadi canteen, Savedi,<br>
+              Ahmednagar.</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8350941948606!2d74.72687231485193!3d19.114888987065626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcba7f3c5c6a4b%3A0xbffd89b1cf7ea2ba!2sPROMINENT%20SPOKEN%20ENGLISH%20%26%20DIGITAL%20MARKETING%20INSTITUTE!5e0!3m2!1sen!2sin!4v1594376738237!5m2!1sen!2sin"
+              width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+  
+          
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Online Classes</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="./essential.html" style="color:grey">Essential</a></li>
+              <li><a href="./innovator.html" style="color:grey">Innovator</a></li>
+              <li><a href="./stimulator.html" style="color:grey">Stimulator</a></li>
+              <li><a href="./prominent.html" style="color:grey">Prominent</a></li>
+              <li><a href="./personality.html" style="color:grey">PDW</a></li>
+              <li><a href="./interview.html" style="color:grey">Interview</a></li>
+              <li><a href="./vocab.html" style="color:grey">Vocab</a></li>
+              <li><a href="./digital.html" style="color:grey">Digital Marketing</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Support</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" style="color:grey" data-toggle="modal" data-target="#terms">Terms condition</a></li>
+              <li><a href="#" style="color:grey">Privacy & Policy</a></li>
+              <li><a href="#" style="color:grey">Copyright Issue</a></li>
+              <li><a href="#" style="color:grey">Get Help</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Join Us</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" style="color:grey">Become Teacher</a></li>
+              <li><a href="#" style="color:grey">Become Student</a></li>
+              <li><a href="#" style="color:grey">Become Both</a></li>
+              <li><a href="#" style="color:grey">Partnership</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Company</b></span></h3>
+            <ul class="list-unstyled">
+              <li><a href="./about.html" style="color:grey">About us</a></li>
+              <li><a href="gallery.html" style="color:grey">Gallery</a></li>
+              <li><a href="./contact.html" style="color:grey">Contact us</a></li>
+            </ul>
+            <br><br><br><bR>
+            <h3 class="footer-heading"><span>Social media</span></h3>
+            <ul class="list-unstyled">
+              <a href="https://www.youtube.com/c/ProminentTrainingInstitute" target="_blank"><i class="fa fa-youtube-play" style="font-size:30px;color:red"></i></a>
+              <a href="https://www.facebook.com/ProminentEnglish/" target="_blank"> <i class="fa fa-facebook offset-1" style="font-size:30px;color:blue"></i></a>
+                <a href="https://instagram.com/prominentspokenenglish?igshid=sa0vr7rt5mcb" target="_blank"><i class="fa fa-instagram offset-1" style="font-size:30px;color:red"></i></a>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-2">
+            <div class="copyright">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="copyright">
+            </div>
+          </div>
+          <div class="col-2">
+  
+          </div>
+          <div class="col-4">
+            <div class="copyright">
+              <p>
+                Designed By <a style="color: #ED3237;">Dinesh Dangare</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="js/checkbox.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+
+  <script src="js/media.js"></script>
+
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

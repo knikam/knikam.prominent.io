@@ -1,0 +1,33 @@
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 5%;
+  }
+  .formmod{
+    position: fixed;
+    top: 43%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    background-color: rgb(194, 191, 191);
+    font-size: 20px;
+    border-radius: 55% 0% 0% 55%;
+
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgb(100, 98, 98);
+  }
+
+  
