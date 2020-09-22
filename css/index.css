@@ -12,6 +12,21 @@
     outline: none;
 }
 
+.video{
+    position: absolute;
+    right:0;
+    margin-top: 3%;
+}
+
+.pop{
+    font-family: "Poppinslight";
+    font-weight: 600;
+}
+
+.rub{
+    font-family: "Rubik";
+}
+
 @media only screen and (max-width: 767px){
     .img-girl{
         display: none;
@@ -32,4 +47,27 @@
         box-shadow: 0px 0px 2px 2px #0000006d;
         border-radius: 100px 0% 0% 100px;
       }
+}
+
+@media only screen and (max-width:993px){
+    .video{
+        position: relative;
+        margin-top: 5px;
+        color: white;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1100px){
+    .video{
+        position: absolute;
+        color: black;
+    }
+}
+
+@media only screen and (min-width:1100px){
+    .video{
+        position: absolute;
+        margin-top: 5px;
+        color: black;
+    }
 }
