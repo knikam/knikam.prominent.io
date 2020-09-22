@@ -1,12 +1,13 @@
 
 .icon-bar {
     position: fixed;
-    top: 50%;
-    right: 0%;
+    top: 60%;
+    right: -2%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    border-radius: 5%;
+    border-radius: 10%;
+    z-index: 10000;
   }
   .formmod{
     position: fixed;
@@ -18,16 +19,16 @@
   .icon-bar a {
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 30px;
     transition: all 0.3s ease;
-    background-color: rgb(194, 191, 191);
+    background-color: rgb(220, 220, 220);
     font-size: 20px;
-    border-radius: 55% 0% 0% 55%;
+    border-radius: 80% 0% 0% 80%;
 
   }
   
   .icon-bar a:hover {
-    background-color: rgb(100, 98, 98);
+    background-color: rgb(201, 201, 201);
   }
 
   

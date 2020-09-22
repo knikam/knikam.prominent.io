@@ -1044,8 +1044,10 @@ h1, h2, h3, h4, h5,
       font-size: 15px; }
 
 .footer {
-  padding: 4rem 0;
-  background: #fff;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-left: 13%;
+  background: rgb(252, 252, 252);
   font-size: 14px;
   color: #000000; }
   .footer .footer-heading {

@@ -8,6 +8,7 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -34,6 +35,7 @@
   <link rel="stylesheet" href="css/navhover.css">
   <link rel="stylesheet" href="css/enquiryicon.css">
   <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/index.css">
   <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
   <style>
     .project-tab {
@@ -54,20 +56,21 @@
     .nav-tabs .nav-link.active {
 
       background-color: transparent;
-      border: 0px solid transparent;
+      border: none;
       border-bottom: 3px #EB3136 solid !important;
       border-top: 3px #EB3136 solid !important;
-      font-size: 12px;
-      font-weight: bold;
+      border-radius: 0;
+      font-size: 14px;
+      font-weight: 1000;
     }
 
     .project-tab .nav-link {
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 14px;
+      font-weight: 300;
     }
 
     .project-tab .nav-link:hover {
-      border: none;
+      color: black;
     }
 
     .project-tab thead {
@@ -82,30 +85,32 @@
     }
     
     form ul li a{
+      font-family: "Rubik";
       font-size: 14px;
       margin-right: 12px;
-      font-weight: 600;
+      font-weight: 400;
     }
+
   </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  <div class="icon-bar">
-    <a href="#"><img src="./images/phone.svg" width="40px" data-toggle="modal" data-target="#modalEnquiryForm"></a>
+  <div class="icon-bar" >
+    <a href="#"><img src="./images/phone.svg" width="25px" data-toggle="modal" data-target="#modalEnquiryForm"></a>
   </div>
 
 
-  <div class="modal fade formmod" id="modalEnquiryForm" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
-    style="height: max-content;">
+  <div class="modal fade formmod col-12" id="modalEnquiryForm" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    style="height: max-content;;">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header text-center">
-          <h4 class="modal-title w-100 font-weight-bold" style="color: black;">Enquiry Now</h4>
+          <h4 class="modal-title w-90 font-weight-bold" style="color: black;">Enquiry Now</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body mx-3">
+        <div class="modal-body mx-2">
           <form method="POST" action="./test.php">
 
             <div class="md-form mb-2">
@@ -127,7 +132,7 @@
         </div>
         <div class="modal-footer d-flex justify-content-center">
           <button type="submit" name="submit" class="btn btn-deep-orange"
-            style="background-color: orangered; width: 100%;">Submit</button>
+            style="background-color:#ED3237; width: 60%;color: white;">Submit</button>
         </div>
         </form>
       </div>
@@ -136,7 +141,7 @@
   </div>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-shadow">
     <div class="container">
 
       <div class="site-logo">
@@ -163,10 +168,10 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses
               </a>
               <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="essential.html">Essential</a>
-                <a class="dropdown-item" href="innovator.html">Innovator</a>
-                <a class="dropdown-item" href="stimulator.html">Stimulator</a>
-                <a class="dropdown-item" href="prominent.html">Prominent</a>
+                <a class="dropdown-item" href="essential.html">Essential English</a>
+                <a class="dropdown-item" href="innovator.html">Innovator English</a>
+                <a class="dropdown-item" href="stimulator.html">Stimulator English</a>
+                <a class="dropdown-item" href="prominent.html">Prominent English</a>
                 <a class="dropdown-item" href="personality.html">Personality Development</a>
                 <a class="dropdown-item" href="vocab.html">Vocab Booster</a>
                 <a class="dropdown-item" href="interview.html">Interview Skills</a>
@@ -199,7 +204,8 @@
               <a class="nav-link " href="contact.html">Contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;" href="#" data-toggle="modal"
+              <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;" href="#" data-toggle="modal"
+
                 data-target="#modalEnquiryForm">Enquiry now</a>
             </li>
           </ul>
@@ -211,11 +217,11 @@
   <div style="width: 100%;">
     <div class="container container-fluid" style="max-width: 100%;">
       <div class="row" style="height: 400px;">
-        <div class="col-md-6 col-sm-10 col-10" style="background-color: #343434;">
+        <div class="col-md-6 col-sm-11 col-11" style="background-color: #343434;">
           <div class="slide_infromleft" style="text-align: left;padding: 20px 20px 20px 30%;display: inline-block;margin-top: 10%;">
             <a href="./essential.html"><button class="btn btn-primary card-hover-button" type="button"
                 style="font-size:12px;border: none;color: #475677;background-color: white;border-radius: 16px;">New Launch</button></a>
-            <h2 style="font-size:30px;color: #FFFFFF;font-weight: 1000;margin-top: 15px;">Learn spoken English<br> online today&nbsp;</h2>
+            <h2 style="font-family: poppins; font-size:30px;color: #FFFFFF;font-weight: 900;margin-top: 15px;">Learn spoken English<br> online today&nbsp;</h2>
             <!-- <h1 style="font-size: 30px;color: #FFED19;font-weight: 300;">Everyday Anywhere Anytime<br></h1> -->
             <h1 style="font-size: 18px;color: #ffbe19;font-size: 14px;font-weight: 100;margin-top: 15px;">Enroll for spoken english today</h1>
             <h1 style="font-size: 18px;color: #ffffff;font-size: 12px;font-weight: 100;margin-top: 15px;">Be the Digital Marketing specialist <br> Enroll For Online Sessions.</h1>
@@ -224,8 +230,8 @@
                 Online</button></a>
           </div>
         </div>
-        <div class="col-md-6 col-xl-6 col-sm-2 col-2" style="background-color: #F16136;">
-          <h2 style="color: white; margin-top: 18%; margin-right: 30%; font-weight: 1000;text-align: right;"
+        <div class="col-md-6 col-sm-1 col-1  col-xl-6" style="background-color: #F16136;">
+          <h2 style=" font-family: poppins ; color: white; margin-top: 18%; margin-right: 25%; font-weight: 900;text-align: right;"
             class="slide_infromright d-none d-md-block">Learn spoken <br> English</h2>
         </div>
       </div>
@@ -234,8 +240,8 @@
           <h1></h1>
         </div>
         <div class="col col-md-6" style="width: auto;text-align: center;text-align: end;padding: 20px;">
-          <h1></h1><img src="assets/img/as1.png"
-            style="position: absolute;left: 0;bottom: 0;height: 40%;width: 60%;padding-left: 40px;">
+          <h1></h1><img src="assets/img/as1.png" class="img-girl"
+            style="position: absolute;left: 0%;bottom: 0;height: 45%;width: 70%;">
         </div>
         <div class="col-xl-2 col-sm-2 col-2 col-md-4 d-sm-none d-md-none ">
           <h1></h1>
@@ -245,7 +251,7 @@
   </div>
 
   <section style="margin-top: 40px;">
-    <h1 class="rubikregular" style="text-align: center; color: black; font-size: 28px;">Recommended <strong>Online Courses</strong>
+    <h1 style="text-align: center; color: black; font-size: 28px;font-weight:100;">Recommended <strong style="font-weight: 700;">Online Courses</strong>
     </h1>
     <section id="tabs" class="project-tab">
       <div class="container">
@@ -265,17 +271,17 @@
               <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <section style="margin-top: 50px;">
 
-                  <div class="container view overlay zoom" style="margin-top: 50px;">
-                    <div class="card-deck mb-2 text-center my-3"  style="display: flex;flex-direction: row;">
-                      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-posts">
-                        <div class="card mb-4 box-shadow card-hover card_posts"
+                  <div class="container view overlay zoom" style="margin-top: 50px;font-family: Rubik;width: 100%;margin-bottom: 10px;">
+                    <div class="card-deck mb-2 text-center my-3 no-gutters">
+                      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="card mb-4 box-shadow card-hover"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Essential English
                           </h4><button class="btn btn-primary" type="button"
-                            style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;font-family: Rubik,Regular;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
+                            style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;font-family: Rubik,bold;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
-                            <ul style="color: #475677;font-weight: 600;text-align: initial;padding-left: 5px;">
+                            <ul style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;">
                               <b>
                                 <li style="font-size: 12px;">Provides the foundation for learning skills&nbsp;</li>
                                 <li style="font-size: 12px;">Is for people who have little or no experience of English
@@ -301,7 +307,7 @@
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
                             <ul
-                              style="color: #475677;font-weight: 600;text-align: initial;padding-left: 5px;">
+                              style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;">
                               <b>
                                 <li style="font-size: 12px;">Slightly more difficult than the Essential level.</li>
                                 <li style="font-size: 12px;">Wide range of topics such as body parts, greetings, seasons
@@ -327,7 +333,7 @@
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
                             <ul
-                              style="color: #475677;font-weight: 600;text-align: initial;padding-left: 5px;">
+                              style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;">
                               <b>
                                 <li style="font-size: 12px;">Stimulator is quite a hard level, but by completeing
                                   Essential and Innovator already, you might not notice a big difference.&nbsp;</li>
@@ -354,7 +360,7 @@
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
                             <ul
-                              style="color: #475677;font-weight: 600;text-align: initial;padding-left: 5px;">
+                              style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;">
                               <b>
                                 <li style="font-size: 12px;">Includes the use of idioms, synonyms, antonyms and high
                                   range of advanced vocabulary.&nbsp;</li>
@@ -379,33 +385,33 @@
 
               </div>
               <!--********************************************************************************************************************************************-->
-              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" >
                 <section style="margin-top: 50px;">
 
-                  <div class="container" style="margin-top: 50px;">
-                    <div class="card-deck mb-3 text-center my-3">
+                  <div class="container" style="margin-top: 50px;font-family: Rubik;width: 100%;margin-bottom: 10px;">
+                    <div class="card-deck mb-3 text-center my-3 no-gutters">
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card mb-4 box-shadow card-hover"
-                          style="border-radius: 15px;margin-left: 2px;margin-right: 2px;max-height: max-content;">
-                          <h4 class="my-3 font-weight-normal" style="font-size: 25px; color: black;">Digital Marketing
+                          style="border-radius: 15px;height: 100%;">
+                          <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Digital Marketing
                           </h4><button class="btn btn-primary" type="button"
                             style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;font-family: Rubik,Regular;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
                               style="text-decoration: line-through;">Rs 19999/-</span></button>
                           <div class="card-body">
-                            <ul style="color: #475677;font-weight: 700;text-align: initial;padding-left: 5px;">
+                            <ul style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;">
                               <b>
-                                <li style="font-size: 13px;">Certified Digital Marketing Professional Course</li>
-                                <li style="font-size: 13px;">Learn how to make a strong online presence with expert
+                                <li style="font-size: 12px;">Certified Digital Marketing Professional Course</li>
+                                <li style="font-size: 12px;">Learn how to make a strong online presence with expert
                                   faculty</li>
-                                <li style="font-size: 13px;">Channelize true potential of different online platforms and
+                                <li style="font-size: 12px;">Channelize true potential of different online platforms and
                                   create strong content</li>
-                                <li style="font-size: 13px;">Learn digital marketing while working on live industry
+                                <li style="font-size: 12px;">Learn digital marketing while working on live industry
                                   projects</li>
-                                <li style="font-size: 13px;text-align: justify;">Our course is pocket friendly and
+                                <li style="font-size: 12px">Our course is pocket friendly and
                                   batches are micro sized to have focused interaction with every individuals.</li>
                               </b>
                             </ul><button class="btn btn-primary" type="button"
-                              style="width: 100%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;"><a
+                            style="width: 90%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;margin:5%; left: 0;bottom: 10px;position: absolute;"><a
                                 href="./digital.html" style="color: #FFFFFF;">View Details</a></button>
                           </div>
                         </div>
@@ -420,57 +426,57 @@
               <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                 <section style="margin-top: 50px;">
 
-                  <div class="container" style="margin-top: 50px;">
+                  <div class="container"  style="margin-top: 50px;font-family: Rubik;width: 100%;margin-bottom: 10px;">
                     <div class="card-deck mb-3 text-center my-3">
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card mb-4 box-shadow card-hover"
-                          style="border-radius: 15px;margin-left: 2px;margin-right: 2px;max-height: max-content;">
-                          <h4 class="my-3 font-weight-normal" style="font-size: 25px; color: black;">Interview Skills
+                          style="border-radius: 15px;height: 100%;">
+                          <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Interview Skills
                           </h4><button class="btn btn-primary" type="button"
                             style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;font-family: Rubik,Regular;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
                             <ul
-                              style="color: #475677;font-weight: 700;text-align: initial;padding-left: 5px;padding-bottom: 35px;">
+                              style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;padding-bottom: 35px;">
                               <b>
-                                <li style="font-size: 13px;">Get a through insight into different types of interviews
+                                <li style="font-size: 12px;">Get a through insight into different types of interviews
                                 </li>
-                                <li style="font-size: 13px;">Learn how to answer toughest of questions with ease.</li>
-                                <li style="font-size: 13px;">Prepare to present yourself effectively.</li>
-                                <li style="font-size: 13px;">Build confidence to hold your nerves during crucial
+                                <li style="font-size: 12px;">Learn how to answer toughest of questions with ease.</li>
+                                <li style="font-size: 12px;">Prepare to present yourself effectively.</li>
+                                <li style="font-size: 12px;">Build confidence to hold your nerves during crucial
                                   moments.</li>
-                                <li style="font-size: 13px;text-align: justify;">Getting your dream job is all about
+                                <li style="font-size: 12px;">Getting your dream job is all about
                                   doing everything right in those important moments of your life.</li>
                               </b>
                             </ul><button class="btn btn-primary" type="button"
-                              style="width: 100%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;"><a
+                            style="width: 90%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;margin:5%; left: 0;bottom: 10px;position: absolute;"><a
                                 href="./interview.html" style="color: #FFFFFF;">View Details</a></button>
                           </div>
                         </div>
                       </div>
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card mb-4 box-shadow card-hover"
-                          style="border-radius: 15px;margin-left: 2px;margin-right: 2px;max-height: max-content;">
-                          <h4 class="my-3 font-weight-normal" style="font-size: 25px; color: black;">Vocab Booster</h4>
+                          style="border-radius: 15px;height: 100%;">
+                          <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Vocab Booster</h4>
                           <button class="btn btn-primary" type="button"
                             style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;font-family: Rubik,Regular;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
                             <ul
-                              style="color: #475677;font-weight: 700;text-align: initial;padding-left: 5px;padding-bottom: 15px;">
+                              style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;padding-bottom: 15px;">
                               <b>
-                                <li style="font-size: 13px;">Develop your vocabulary with easy tricks & tactics.</li>
-                                <li style="font-size: 13px;">Add different varieties of words in your daily
+                                <li style="font-size: 12px;">Develop your vocabulary with easy tricks & tactics.</li>
+                                <li style="font-size: 12px;">Add different varieties of words in your daily
                                   communication.</li>
-                                <li style="font-size: 13px;">Increase your fluency and communicate your ideas with
+                                <li style="font-size: 12px;">Increase your fluency and communicate your ideas with
                                   confidence.</li>
-                                <li style="font-size: 13px;">Prepare for various English proficiency exams with ease.
+                                <li style="font-size: 12px;">Prepare for various English proficiency exams with ease.
                                 </li>
-                                <li style="font-size: 13px;text-align: justify;">Using a wide range of words with
+                                <li style="font-size: 12px;text-align: justify;">Using a wide range of words with
                                   different proverbs and idioms make you convey things easily.</li>
                               </b>
                             </ul><button class="btn btn-primary" type="button"
-                              style="width: 100%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;"><a
+                            style="width: 90%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;margin:5%; left: 0;bottom: 10px;position: absolute;"><a
                                 href="./vocab.html" style="color: #FFFFFF;">View Details</a></button>
                           </div>
                         </div>
@@ -478,24 +484,24 @@
 
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card mb-4 box-shadow card-hover"
-                          style="border-radius: 15px;margin-left: 2px;margin-right: 2px;max-height: max-content;">
+                          style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-size: 25px; color: black;">Personality
                             Development</h4><button class="btn btn-primary" type="button"
                             style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;font-family: Rubik,Regular;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
                               style="text-decoration: line-through;">Rs 2999/-</span></button>
                           <div class="card-body">
                             <ul
-                              style="color: #475677;font-weight: 700;text-align: initial;padding-left: 5px;padding-bottom: 5px;">
+                              style="color: #475677;font-weight: 400;text-align: initial;padding-left: 5px;padding-bottom: 5px;">
                               <b>
-                                <li style="font-size: 13px;">Discover your potential and enhance your skills.</li>
-                                <li style="font-size: 13px;">Develop a positive mindset and thriving approach.</li>
-                                <li style="font-size: 13px;">Build an impactful personality to leave a long-lasting
+                                <li style="font-size: 12px;">Discover your potential and enhance your skills.</li>
+                                <li style="font-size: 12px;">Develop a positive mindset and thriving approach.</li>
+                                <li style="font-size: 12px;">Build an impactful personality to leave a long-lasting
                                   impact.</li>
-                                <li style="font-size: 13px;">Empower your ability to demand attention and hold it.</li>
-                                <li style="font-size: 13px;">Know how to balance your time, emotional intelligence and
+                                <li style="font-size: 12px;">Empower your ability to demand attention and hold it.</li>
+                                <li style="font-size: 12px;">Know how to balance your time, emotional intelligence and
                                   develop insights to improve your productivity.</li>
                             </ul><button class="btn btn-primary" type="button"
-                              style="width: 100%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;"><a
+                            style="width: 90%;background-color: #ED3237;border: none;border: 10px;font-family: Poppins;margin:5%; left: 0;bottom: 10px;position: absolute;"><a
                                 href="./personality.html" style="color: #FFFFFF;">View Details</a></button>
                           </div>
                         </div>
@@ -513,13 +519,13 @@
   <div class="site-section">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-lg-6 col-xl-6" style="background-color: black;margin-bottom: 80px;">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-5" style="background-color: black;margin-bottom: 80px;">
           <div><iframe class="embed-responsive-item" src="assets/img/video.mp4" autostart="false" style="position: absolute;
-            top: 60%;
+            top: 50%;
             bottom:50%;
             left: 50%;
             width:100%;
-            height: 140%;
+            height:100%;
             z-index: 0;
             -ms-transform: translateX(-50%) translateY(-50%);
             -moz-transform: translateX(-50%) translateY(-50%);
@@ -529,13 +535,11 @@
 
 
         </div>
-        <div class="col-md-6 slide_infromright">
+        <div class="col-sm-12 col-md-6 slide_infromright">
           <div style="margin-left: 20px;margin-top: -10px;">
-            <h1 style="font-size: 24px; color: black;"><b>Why You Should</b></h1>
-            <h1 style="font-size: 50px; font-weight: lighter; color: black;">Choose Us</h1>
-            <h1 style="font-size: 18px;color: #999999;font-size: 12px;font-weight: 100;margin-top: 15px;padding-bottom: 15px;">There are many variations of passage of lorum ipsome available <br> some from by injected humor</h1>
-            <ul style="list-style-type: none;padding-left: 2px;" class="w3-animate-fading">
-              <li style="padding-bottom: 15px;font-size: 12px;color: #405d9b;"><img src="assets/img/reading-book.svg" height="20" width="20">&nbsp;+ 20,000 successfully
+            <h1 style="font-size: 24px; color: black;font-weight: 300;"><b>Why You Should</b></h1>
+            <h1 style="font-size: 50px; font-weight: lighter; color: black;">Choose Us</h1>            <ul style="list-style-type: none;padding-left: 2px;" class="w3-animate-fading">
+              <li style="padding-bottom: 15px;font-size: 12px;color: #2e4d8f;"><img src="assets/img/reading-book.svg" height="20" width="20">&nbsp;+ 20,000 successfully
                 completed students</li>
               <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/lamp.svg"  height="20" width="20"> &nbsp; &nbsp;innovative Teaching
                 Techniques</li>
@@ -547,8 +551,8 @@
                 Methodology</li>
               <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/noun_Time_534806.svg"  height="20" width="20">&nbsp;Flexible Timings and
                 Location </li>
-              <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/noun_Premium%20Card_1236542.svg"  height="20" width="20">&nbsp; Life Time
-                Membership Facility&nbsp;<br></li>
+              <!-- <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/noun_Premium%20Card_1236542.svg"  height="20" width="20">&nbsp; Life Time
+                Membership Facility&nbsp;<br></li> -->
               <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/reading-book.svg"  height="20" width="20">&nbsp;International
                 Standards&nbsp;<br></li>
               <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/noun_certified_720125.svg"  height="20" width="20">&nbsp;Certified
@@ -594,9 +598,9 @@
   <div class="container" style="max-width: 100%;">
     <div class="row" style="padding: 10px;background-color: #343434;margin-top: 70px;">
       <div class="col-md-12">
-        <h1 style="text-align: center;color: white;font-size: 32px;font-weight: 700;margin-top: 10px;">Check your Online English test
+        <h1 style="text-align: center;color: white;font-size: 32px;font-weight:bold;margin-top: 10px;">Check your Online English test
         </h1>
-        <h1 style="text-align: center;font-size: 18px;color: #ffffff;font-size: 12px;font-weight: 100;margin-top: 15px;padding-bottom: 15px;">There are many variations of passage of lorum ipsome available <br> some from by injected humor</h1>
+        <!-- <h1 style="text-align: center;font-size: 18px;color: #ffffff;font-size: 12px;font-weight: 100;margin-top: 15px;padding-bottom: 15px;">There are many variations of passage of lorum ipsome available <br> some from by injected humor</h1> -->
       </div>
       <div class="col card-hover-button" style="margin-bottom: 0px;"><button class="btn btn-primary" type="button"
           style="margin: auto;display: block;background-color: #ED3237;border-radius: 6px;border: none;position: relative;width: 200px;top: 30px;height: 40px;"><a
@@ -610,8 +614,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 style="text-align: center;font-size: 28px; position: relative; color: black;">Let’s check our
-            <strong>Process</strong></h1>
+          <h1 style="text-align: center;font-size: 28px; position: relative; color: black;font-weight: 200;">Let’s check our
+            <strong style="font-weight: 700;">Process</strong></h1>
 
         </div>
       </div>
@@ -647,15 +651,14 @@
 
 
 
-  <div
-    class="testimonials-clean carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x">
+  <div class="testimonials-clean carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" style="background-color: white;">
     <div class="container">
       <div class="intro">
-        <h1 style="color: black;padding-top: 50px;text-align: center;font-size: 28px;">Enroll Student's <strong>Feedback</strong></h1>
+        <h1 style="color: black;padding-top: 50px;text-align: center;font-size: 28px;font-weight: 200;">Enroll Student's <strong style="font-weight: 700;">Feedback</strong></h1>
       </div>
       <div class="row blog">
         <div class="col-md-12" style="padding-bottom: 50px;">
-          <ol class="carousel-indicators" style="padding-top: 5px;">
+          <ol class="carousel-indicators" style="padding-top: 5px; color: grey;">
             <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#blogCarousel" data-slide-to="1"></li>
             <li data-target="#blogCarousel" data-slide-to="2"></li>
@@ -669,7 +672,7 @@
 
               <div class="carousel-item active">
                 <div class="row people" style="justify-content: center;min-height: 370px;">
-                  <div class="col-md-6 col-lg-4 item">
+                  <div class="col-md-6 col-lg-4 item card" style="margin-right: 10px;">
                     <div class="box card-hover"><img src="assets/img/Group%20837.svg"
                         style="position: absolute;margin-left: 30%;">
                       <p class="description" style="font-size:12px" >Prominent has given me a chance to face the
@@ -681,7 +684,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-4 item">
+                  <div class="col-md-6 col-lg-4 item card">
                     <div class="box card-hover"><img src="assets/img/Group%20837.svg"
                         style="position: absolute;margin-left: 30%;">
                       <p class="description" style="font-size:12px">Prominent institute is the best English institute.
@@ -701,7 +704,7 @@
 
               <div class="carousel-item">
                 <div class="row people" style="justify-content: center;min-height: 370px;">
-                  <div class="col-md-6 col-lg-4 item">
+                  <div class="col-md-6 col-lg-4 item card" style="margin-right: 10px;">
                     <div class="box card-hover"><img src="assets/img/Group%20837.svg"
                         style="position: absolute;margin-left: 30%;">
                       <p class="description" style="font-size:12px">My speaking is better than before, and my writing
@@ -715,7 +718,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-4 item">
+                  <div class="col-md-6 col-lg-4 item card">
                     <div class="box card-hover"><img src="assets/img/Group%20837.svg"
                         style="position: absolute;margin-left: 30%;">
                       <p class="description" style="font-size:12px">Prominent institute is a very good institute for Marathi medium students
@@ -737,7 +740,7 @@
 
               <div class="carousel-item">
                 <div class="row people" style="justify-content: center;min-height: 370px;">
-                  <div class="col-md-6 col-lg-4 item">
+                  <div class="col-md-6 col-lg-4 col-xl-4 item card" style="margin-right: 10px;">
                     <div class="box card-hover"><img src="assets/img/Group%20837.svg"
                         style="position: absolute;margin-left: 30%;">
                       <p class="description" style="font-size:12px">I would suggest prominent to any one who asks me.
@@ -749,7 +752,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-4 item">
+                  <div class="col-md-6 col-lg-4 item card">
                     <div class="box card-hover"><img src="assets/img/Group%20837.svg"
                         style="position: absolute;margin-left: 30%;">
                       <p class="description" style="font-size:12px">I am very happy with the facilities provided at Prominent. The
@@ -774,11 +777,11 @@
 
         </div>
         <br>
-        <a class="left carousel-control" href="#blogCarousel" role="button" data-slide="prev">
-          <span class="fa fa-chevron-left"></span>
+        <a class="left carousel-control" href="#blogCarousel" role="button" data-slide="prev" style="font-size: 18px;margin-left: 10%;">
+          <span class="fa fa-arrow-left"></span>
         </a>
-        <a class="right carousel-control" href="#blogCarousel" role="button" data-slide="next">
-          <span class="fa fa-chevron-right"></span>
+        <a class="right carousel-control" href="#blogCarousel" role="button" data-slide="next" style="font-size: 18px;margin-right: 10%;">
+          <span class="fa fa-arrow-right" ></span>
         </a>
       </div>
     </div>
@@ -812,8 +815,8 @@
   <div class="newsletter-subscribe">
     <div class="container">
       <div class="intro" style="font-size: 32px;">
-        <h5 style="text-align: center;font-size: 28px;font-weight: 1100;">To Get Latest News &amp; Further Update</h5>
-        <h2 class="text-center" style="font-size: 28px;font-weight: 1000;color: black;">Subscribe Our Newsletter &amp; Download Brochure</h2>
+        <h5 style="text-align: center;font-size: 28px;font-weight: 1100;color: black;">To Get Latest News &amp; Further Update</h5>
+        <h2 class="text-center" style="font-size: 28px;font-weight6500;color: black;">Subscribe Our Newsletter &amp; Download Brochure</h2>
       </div>
     </div>
     <a href="assets/prom.pdf" download="Prominent English" target="_blank"><button
@@ -903,21 +906,21 @@
 
   <div class="footer">
     <div class="container" style="line-height: 1.5;font-size: 11px;">
-      <div class="row">
-        <div class="col-lg-3">
-          <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
+      <div class="row no-gutters">
+        <div class="col-lg-3" style="margin-top: -12px;">
+          <p class="mb-3"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
           <p style="color: grey;font-size: 12px;">Sanmitra colony, Opp Mauli Sankul,<br>
             Near zhopadi canteen, Savedi,<br>
             Ahmednagar.</p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8350941948606!2d74.72687231485193!3d19.114888987065626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcba7f3c5c6a4b%3A0xbffd89b1cf7ea2ba!2sPROMINENT%20SPOKEN%20ENGLISH%20%26%20DIGITAL%20MARKETING%20INSTITUTE!5e0!3m2!1sen!2sin!4v1594376738237!5m2!1sen!2sin"
-            width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            width="220" height="120" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
             tabindex="0"></iframe>
         </div>
 
 
         <div class="col-lg-2">
-          <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Online Classes</b></span></h3>
+          <h3 class="footer-heading mb-2" style="color: rgb(94, 93, 93);"><b>Online Classes</b></h3>
           <ul class="list-unstyled">
             <li><a href="./essential.html" style="color:grey">Essential</a></li>
             <li><a href="./innovator.html" style="color:grey">Innovator</a></li>
@@ -931,7 +934,7 @@
           </ul>
         </div>
         <div class="col-lg-2">
-          <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Support</b></span></h3>
+          <h3 class="footer-heading  mb-2" style="color: rgb(94, 93, 93);"><span><b>Support</b></span></h3>
           <ul class="list-unstyled">
             <li><a href="#" style="color:grey" data-toggle="modal" data-target="#terms">Terms condition</a></li>
             <li><a href="#" style="color:grey">Privacy & Policy</a></li>
@@ -940,7 +943,7 @@
           </ul>
         </div>
         <div class="col-lg-2">
-          <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Join Us</b></span></h3>
+          <h3 class="footer-heading  mb-2" style="color: rgb(94, 93, 93);"><span><b>Join Us</b></span></h3>
           <ul class="list-unstyled">
             <li><a href="#" style="color:grey">Become Teacher</a></li>
             <li><a href="#" style="color:grey">Become Student</a></li>
@@ -949,26 +952,26 @@
           </ul>
         </div>
         <div class="col-lg-2">
-          <h3 class="footer-heading" style="color: rgb(94, 93, 93);"><span><b>Company</b></span></h3>
+          <h3 class="footer-heading  mb-2" style="color: rgb(94, 93, 93);"><span><b>Company</b></span></h3>
           <ul class="list-unstyled">
             <li><a href="./about.html" style="color:grey">About us</a></li>
             <li><a href="gallery.html" style="color:grey">Gallery</a></li>
             <li><a href="./contact.html" style="color:grey">Contact us</a></li>
           </ul>
           <br><br><br><bR>
-          <h3 class="footer-heading"><span>Social media</span></h3>
+          <h3 class="footer-heading  mb-2" style="color: rgb(94, 93, 93);"><span><b>Social media</b></span></h3>
           <ul class="list-unstyled">
-            <a href="https://www.youtube.com/c/ProminentTrainingInstitute" target="_blank"><i class="fa fa-youtube-play"
-                style="font-size:30px;color:red"></i></a>
-            <a href="https://www.facebook.com/ProminentEnglish/" target="_blank"> <i class="fa fa-facebook offset-1"
-                style="font-size:30px;color:blue"></i></a>
+            <a href="https://www.youtube.com/c/ProminentTrainingInstitute" target="_blank"><i class="fa fa-facebook-official"
+                style="font-size:30px;color:#3b5998"></i></a>
+            <a href="https://www.facebook.com/ProminentEnglish/" target="_blank"> <i class="fa fa-youtube-play offset-1"
+                style="font-size:30px;color:#FF0000"></i></a>
             <a href="https://instagram.com/prominentspokenenglish?igshid=sa0vr7rt5mcb" target="_blank"><i
-                class="fa fa-instagram offset-1" style="font-size:30px;color:red"></i></a>
+                class="fa fa-twitter offset-1" style="font-size:30px;color:#00acee"></i></a>
           </ul>
         </div>
       </div>
 
-      <div class="row" style="margin-top: -40px;">
+      <div class="row mb-2" style="margin-top: -70px;">
         <div class="col-2">
           <div class="copyright">
             <p>

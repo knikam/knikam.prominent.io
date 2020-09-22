@@ -1,0 +1,30 @@
+.nav-shadow{
+    box-shadow: 0px 0px 8px 2px #0000006d;
+}
+
+.close{
+    background-color: black;
+}
+*:focus{
+    outline: none;
+}
+
+@media only screen and (max-width: 767px){
+    .img-girl{
+        display: none;
+    }
+    .footer{
+        padding-left: 0;
+    }
+
+    .icon-bar {
+        position: fixed;
+        top: 60%;
+        right: 5%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        border-radius: 10%;
+        z-index: 10000;
+      }
+}
