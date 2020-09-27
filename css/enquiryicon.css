@@ -2,7 +2,7 @@
 .icon-bar {
     position: fixed;
     top: 60%;
-    right: -2%;
+    right: 0%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -22,7 +22,7 @@
   .icon-bar a {
     display: block;
     text-align: center;
-    padding: 40px 25px;
+    padding: 40px 20px 40px 20px;
     transition: all 0.3s ease;
     background-color: rgb(255, 255, 255);
     font-size: 20px;

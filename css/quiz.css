@@ -10,16 +10,18 @@
 }
 #submit{
 	font-family: sans-serif;
-	font-size: 20px;
-	background-color: #279;
+	font-size: 12px;
+	background-color:#ed3237;
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
 	padding: 5px;
 	cursor: pointer;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
 
 }
 #submit:hover{
-	background-color: #38a;
+	background-color:#ce1218;
+	;
 }
