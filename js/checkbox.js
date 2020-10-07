@@ -28,7 +28,11 @@ function checkAll(e,value) {
     b=b+1;
     const btn=document.getElementById("proceedbtn");
     if(b == 1){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -37,7 +41,11 @@ function checkAll(e,value) {
    
     }
     else if(b == 2){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -46,7 +54,11 @@ function checkAll(e,value) {
    
     }
     else if(b == 3){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -56,7 +68,11 @@ function checkAll(e,value) {
    
     }
     else if(b == 4){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -66,7 +82,11 @@ function checkAll(e,value) {
    
     }
     else if(b == 5){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -89,7 +109,11 @@ function checkAll(e,value) {
     b=b+1;
     const btn=document.getElementById("proceedbtn");
     if(b == 1){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -100,7 +124,11 @@ function checkAll(e,value) {
     }
     else if(b == 2){
 
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -111,7 +139,11 @@ function checkAll(e,value) {
     }
     else if(b == 3){
 
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -122,7 +154,11 @@ function checkAll(e,value) {
     }
     else if(b == 4){
 
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -149,7 +185,11 @@ function checkAll(e,value) {
     b=b+1;
     const btn=document.getElementById("proceedbtn");
     if(b == 1){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -160,7 +200,11 @@ function checkAll(e,value) {
     }
     else if(b == 2){
 
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -171,7 +215,11 @@ function checkAll(e,value) {
     }
     else if(b == 3){
 
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -195,7 +243,11 @@ function checkAll(e,value) {
     b=b+1;
     const btn=document.getElementById("proceedbtn");
     if(b == 1){
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -206,7 +258,11 @@ function checkAll(e,value) {
     }
     else if(b == 2){
 
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -222,7 +278,11 @@ function checkAll(e,value) {
    
     const btn=document.getElementById("proceedbtn");
    
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -237,7 +297,11 @@ function checkAll(e,value) {
    
     const btn=document.getElementById("proceedbtn");
    
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -254,7 +318,11 @@ function checkAll(e,value) {
    
     const btn=document.getElementById("proceedbtn");
    
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
         font-size: 1.3rem; ">
@@ -270,12 +338,16 @@ function checkAll(e,value) {
    
     const btn=document.getElementById("proceedbtn");
    
-        document.write(`<center style="margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);margin-left: 40%;">
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
        <img src="images/logo.png" alt="Image" style=" position: relative;
         font-weight: 900;
-        font-size: 1.3rem; ">
-        <h1>Prominent English Institute</h1>
-        <h3>Secure Payment Gateaway....</h3>Press This button to proceed!<br> <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FdMZ6rHga0RoMG"> </script> </form>
+        font-size: 1.3rem; "><br>
+        <h1>Prominent English Institute</h1><br>
+        <h3>Secure Payment Gateaway....</h3><br>Press This button to proceed!<br> <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FdMZ6rHga0RoMG"> </script> </form>
         </center>`);
    
     

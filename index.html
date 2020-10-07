@@ -96,6 +96,12 @@
       font-weight: 400;
     }
 
+    .course-card:hover{
+      transform: scale(1.02);
+      background-color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
   </style>
 </head>
 
@@ -145,7 +151,7 @@
     </div>
   </div>
 
-
+<!--
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-shadow">
     <div class="container">
 
@@ -181,7 +187,7 @@
                 <a class="dropdown-item" href="vocab.html">Vocab Booster</a>
                 <a class="dropdown-item" href="interview.html">Interview Skills</a>
                 <a class="dropdown-item" href="digital.html">Digital Marketing</a>
-                <!-- <div class="dropdown-divider"></div> -->
+               
               </div>
             </li>
             <li class="nav-item">
@@ -201,7 +207,7 @@
                 <a class="dropdown-item" href="#">Batch-2 : <h6 style="color:#7D8597;font-size: 13px;">2PM - 4PM</h6>
                   </a>
 
-                <!-- <div class="dropdown-divider"></div> -->
+                
               </div>
 
             </li>
@@ -222,9 +228,100 @@
       </div>
     </div>
   </nav>
+
+-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-shadow">
+  <div class="container">
+
+    <button class="navbar-toggler" style="border:none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="site-logo">
+      <a href="index.html" class="d-block">
+        <img src="images/Logo.svg" alt="Image" class="img-link" style="width:150px;">
+      </a>
+    </div>
+    
+    <div class="navbar-toggler" style="border: none; ">
+      <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;" href="#" data-toggle="modal"
+
+              data-target="#modalEnquiryForm">Enquiry now</a>
+    </div>
+    
+
+
+    
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown dropdownl">
+            <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" style="font-size: 14px;"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses
+            </a>
+            <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="essential.html">Essential English</a>
+              <a class="dropdown-item" href="innovator.html">Innovator English</a>
+              <a class="dropdown-item" href="stimulator.html">Stimulator English</a>
+              <a class="dropdown-item" href="prominent.html">Prominent English</a>
+              <a class="dropdown-item" href="personality.html">Personality Development</a>
+              <a class="dropdown-item" href="vocab.html">Vocab Booster</a>
+              <a class="dropdown-item" href="interview.html">Interview Skills</a>
+              <a class="dropdown-item" href="digital.html">Digital Marketing</a>
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" data-toggle="modal" data-target="#modalEnquiryForm">Book Your demo</a>
+          </li>
+          <li class="nav-item dropdown dropdownl">
+            <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 14px;">Batches</a>
+
+
+            <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Batch-1 : <h6 style="color:#7D8597;font-size: 13px;">10AM - 12PM</h6>
+                </a>
+              <a class="dropdown-item" href="#">Batch-2 : <h6 style="color:#7D8597;font-size: 13px;">2PM - 4PM</h6>
+                </a>
+
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;" href="#" data-toggle="modal"
+
+              data-target="#modalEnquiryForm">Enquiry now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html"><img src="./assets/img/headphone.svg" height="20" width="20" style="margin-right: 5px;margin-left: 8px;"/>8600000069</a>
+          </li>
+        </ul>
+
+      </form>
+    </div>
+  </div>
+</nav>
+
   <div style="width: 100%;">
     <div class="container container-fluid" style="max-width: 100%;">
-      <div class="row" style="height: 400px;">
+      <div class="row home-row" >
         <div class="col-md-6 col-sm-11 col-11" style="background-color: #343434;">
           <div class="slide_infromleft" style="text-align: left;padding: 20px 20px 20px 30%;display: inline-block;margin-top: 10%;">
             <a href="essential.html" class="btn btn-primary card-hover-button"
@@ -247,9 +344,8 @@
         <div class="col-xl-2 col-sm-2 col-2 col-md-4">
           <h1></h1>
         </div>
-        <div class="col col-md-6" style="width: auto;text-align: center;text-align: end;padding: 20px;">
-          <h1></h1><img src="assets/img/as1.png" class="img-girl"
-            style="position: absolute;left: -6%;bottom: 0;height: 45%;width: 60%;">
+        <div class="col col-md-6" style="text-align: center;text-align: end;">
+          <h1></h1><img src="assets/img/as1.png" class="img-girl">
         </div>
         <div class="col-xl-2 col-sm-2 col-2 col-md-4 d-sm-none d-md-none ">
           <h1></h1>
@@ -282,7 +378,7 @@
                   <div class="container view overlay zoom" style="margin-top: 50px;width: 100%;margin-bottom: 10px;">
                     <div class="card-deck mb-2 text-center my-3 no-gutters">
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-family: Poppinslight; font-weight: 200; font-size: 22px; color: black;">Essential English
                           </h4><button class="btn btn-primary" type="button"
@@ -307,7 +403,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-family: Poppinslight;font-size: 22px; color: black;">Innovator English
                           </h4><button class="btn btn-primary" type="button"
@@ -333,7 +429,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-family: Poppinslight; font-size: 22px; color: black;">Simulator English
                           </h4><button class="btn btn-primary" type="button"
@@ -360,7 +456,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-family: Poppinslight; font-size: 22px; color: black;">Prominent English
                           </h4><button class="btn btn-primary" type="button"
@@ -399,7 +495,7 @@
                   <div class="container" style="margin-top: 50px;font-family: Rubik;width: 100%;margin-bottom: 10px;">
                     <div class="card-deck mb-3 text-center my-3 no-gutters">
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Digital Marketing
                           </h4><button class="btn btn-primary" type="button"
@@ -437,7 +533,7 @@
                   <div class="container"  style="margin-top: 50px;font-family: Rubik;width: 100%;margin-bottom: 10px;">
                     <div class="card-deck mb-3 text-center my-3">
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Interview Skills
                           </h4><button class="btn btn-primary" type="button"
@@ -463,7 +559,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-size: 22px; color: black;">Vocab Booster</h4>
                           <button class="btn btn-primary" type="button"
@@ -491,7 +587,7 @@
                       </div>
 
                       <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="card mb-4 box-shadow card-hover"
+                        <div class="card mb-4 box-shadow course-card"
                           style="border-radius: 15px;height: 100%;">
                           <h4 class="my-3 font-weight-normal" style="font-size: 25px; color: black;">Personality
                             Development</h4><button class="btn btn-primary" type="button"
@@ -539,14 +635,13 @@
             -moz-transform: translateX(-50%) translateY(-50%);
             -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%)"></iframe></div>
-
-
-
         </div>
         <div class="col-sm-12 col-md-6 slide_infromright">
           <div style="margin-left: 8%;margin-top: -10px;">
             <h1 style="font-family: poppins;font-size: 24px; color: black;font-weight:600;">Why You Should</h1>
-            <h1 style="font-family: poppins;font-size: 50px; color: black;font-weight:200;">Choose Us</h1>            <ul style="list-style-type: none;padding-left: 2px; font-weight: 400;">
+            <h1 style="font-family: poppins;font-size: 50px; color: black;font-weight:200;">Choose Us</h1> 
+
+            <ul style="list-style-type: none;padding-left: 2px; font-weight: 400;">
               <li style="padding-bottom: 15px;font-size: 12px;color: #2e4d8f;"><img src="assets/img/reading-book.svg" height="20" width="20">&nbsp;+ 20,000 successfully
                 completed students</li>
               <li style="padding-bottom: 15px; font-size: 12px;color: #405d9b;"><img src="assets/img/lamp.svg"  height="20" width="20"> &nbsp; &nbsp;innovative Teaching
@@ -588,11 +683,29 @@
 
           <div id="quizz" style="padding: 20px;"></div>
 
-          <div><button id="submit" style="margin-left: 20px;">Submit Quiz</button></div>
+          <div id="quizz" style="padding: 20px;"></div>
+
+          <div><button id="submit" style="margin-left: 20px;" data-toggle="modal" data-target="#q">Submit Quiz</button></div>
+          
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade formmod" id="q" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold" style="color: black;">Demo Test</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div>
+
           <div id="results" style="margin-left: 20px;"></div>
-
-
-
         </div>
       </div>
     </div>
@@ -633,8 +746,9 @@
     <div class="container" style="max-width: 100%;background-color: white; margin-bottom: 10px;">
       <div class="row" style="margin-top: 30px;display: flex;justify-content: center;background-color: white;">
 
-        <video width="400" style="width: 70%;height: 50%;background-color: white;" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="./assets/img/intro.mp4" type="video/mp4">
+        <!-- <img src="./images/Video2.png" alt="" class="img-fluid"> -->
+        <video width="400" style="width: 60%;height: 90%;background-color: transparent; " autoplay="autoplay" muted="muted" loop="loop">
+          <source src="./assets/img/video1.mp4" type="video/mp4">
 
 
         </video>
@@ -824,7 +938,7 @@
         <h2 class="text-center" style="font-family:Poppins;font-size: 28px;font-weight:600;color: black;">Subscribe Our Newsletter &amp; Download Brochure</h2>
       </div>
     </div>
-    <a href="assets/prom.pdf" download="Prominent English" target="_blank"><button
+    <a href="#" data-toggle="modal" data-target="#modalEnquiryForm" target="_blank"><button
         class="btn btn-primary card-hover-button" type="button"
         style="margin: -10px auto;display: block;background-color: #ED3237;border-radius: 8px;border: none;position: relative;height: 40px;width: 250px;font-size: 12px;">Subscribe
         Now &amp; Download Brochure</button></a>
@@ -975,7 +1089,7 @@
         </div>
       </div>
   
-      <div class="row mb-2" style="margin-top: -70px;">
+      <div class="row mb-2" style="margin-top: 0px;">
         <div class="col-2">
           <div class="copyright">
             <p>

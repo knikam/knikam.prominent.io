@@ -29,10 +29,62 @@
     font-family: "Rubik";
 }
 
-@media only screen and (max-width: 767px){
-    .img-girl{
-        display: none;
+.img-girl{
+    position: absolute;
+    left: -5%;
+    bottom: 0;
+    height: 50%;
+    width: 70%;
+}
+
+.home-row{
+    height: 70vh;
+}
+
+/* We High */
+
+.recomandation{
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recommend{
+    margin-bottom: 25px;
+    box-shadow: 0 12px 20px 8px rgba(0,0,0,0.2);
+    padding: 20px 15px 0 15px;
+    margin-top: 15px;
+}
+.img-rec{
+    margin-top: 20px;
+}
+.rec-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 435px){
+    .img-rec{
+        position: absolute;
+        margin-top: 20px;
+        bottom: 0;
+        left: 0;
     }
+}
+@media only screen and (max-width: 767px){
+
+    .img-girl{
+        left:0%;
+        height: 45%;
+        width: 90%;
+    }
+
+    .home-row{
+        height: 90vh;
+    }
+
     .footer{
         padding-left: 0;
     }
@@ -64,10 +116,6 @@
 }
 
 @media only screen and (max-width:993px){
-    .img-girl{
-        height: 40%;
-        width: 50%;
-    }
 
     .video{
         position: relative;

@@ -100,19 +100,30 @@
 
 
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-shadow">
       <div class="container">
-    
-        <div class="site-logo">
-          <a href="index.html" class="d-block">
-            <img src="images/Logo.svg" alt="Image" class="img-link">
-          </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+  
+        <button class="navbar-toggler" style="border:none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
+  
+        <div class="site-logo">
+          <a href="index.html" class="d-block">
+            <img src="images/Logo.svg" alt="Image" class="img-link" style="width:150px;">
+          </a>
+        </div>
+        
+        <div class="navbar-toggler" style="border: none; ">
+          <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;" href="#" data-toggle="modal"
+  
+                  data-target="#modalEnquiryForm">Enquiry now</a>
+        </div>
+        
+  
+  
+        
+  
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
           </ul>
@@ -121,9 +132,9 @@
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-    
+  
               <li class="nav-item dropdown dropdownl">
-                <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button"
+                <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" style="font-size: 14px;"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses
                 </a>
                 <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
@@ -146,29 +157,32 @@
               </li>
               <li class="nav-item dropdown dropdownl">
                 <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Batches</a>
-                
-    
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 14px;">Batches</a>
+  
+  
                 <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Batch-1 : <h6 style="color:#7D8597;font-size: 13px;">10AM - 12PM</h6></a>
-                  <a class="dropdown-item" href="#">Batch-2 : <h6 style="color:#7D8597;font-size: 13px;">2PM - 4PM</h6></a>
-                  
+                  <a class="dropdown-item" href="#">Batch-1 : <h6 style="color:#7D8597;font-size: 13px;">10AM - 12PM</h6>
+                    </a>
+                  <a class="dropdown-item" href="#">Batch-2 : <h6 style="color:#7D8597;font-size: 13px;">2PM - 4PM</h6>
+                    </a>
+  
                   <!-- <div class="dropdown-divider"></div> -->
                 </div>
-    
+  
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="contact.html">Contact us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn-primary my-2 my-sm-0 btn" href="#" data-toggle="modal"  style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;"
-                 data-target="#modalEnquiryForm">Enquiry now</a>
+                <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;" href="#" data-toggle="modal"
+  
+                  data-target="#modalEnquiryForm">Enquiry now</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="tel:8600000069"><img src="./assets/img/headphone.svg" height="20" width="20" style="margin-right: 5px;margin-left: 8px;"/>8600000069</a>
+                <a class="nav-link " href="contact.html"><img src="./assets/img/headphone.svg" height="20" width="20" style="margin-right: 5px;margin-left: 8px;"/>8600000069</a>
               </li>
             </ul>
-            
+  
           </form>
         </div>
       </div>
@@ -337,6 +351,33 @@
       </div>
     </div>
 
+    <div class="recomandation">
+      <h1 style="color: black;padding-top: 10px;text-align: center;font-size: 28px;font-weight: 200;margin-bottom: 30px;">We Highly <strong style="font-weight: 600;">Recommended Course</strong></h1>
+      <div class="card col-sm-6 recommend">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                  <h1 class="pop" style="font-size: 24px;color: black;font-weight: 400;">Innovator English</h1>
+                  <img src="./images/Image_rec.png" alt="" class="img-fluid img-rec">
+              </div>
+              <div class="col">
+                <div class="rec-header">
+                      <button class="btn btn-primary" type="button"
+                    style="background-color: rgba(0, 181, 146, 0.3);float: left;width: 90px;margin-left: 20px;font-size: 15px;border: none;border-radius: 17px;color: rgba(0, 181, 146, 1);"><span
+                      style="text-decoration: line-through;">Rs 2999/-</span></button>
+                      <p style="font-size: 18px;color: black;font-weight: 800;">Rs. 1800 only</p>
+                </div>
+                <p style="font-size: 12px;color: #475677;font-weight: 300;">The level to foster the innovative English Speaking Skills for learners through practical training.</p>
+                <p style="font-size: 12px;color: #475677;font-weight: 600;">- Applicable to Beginners <br> - English Crash Course <br> - Grammar sessions <br> - Thourough Lessons <br> - Practice Sets</p>
+                <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;margin-bottom: 10px;" href="#" data-toggle="modal"
+  
+                data-target="#">Book now</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
     <div class="testimonials-clean carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" style="background-color: white;">
       <div class="container">
         <div class="intro">
@@ -481,7 +522,7 @@
           <h2 class="text-center" style="font-family:Poppins;font-size: 28px;font-weight:600;color: black;">Subscribe Our Newsletter &amp; Download Brochure</h2>
         </div>
       </div>
-      <a href="assets/prom.pdf" download="Prominent English" target="_blank"><button
+      <a href="#" data-toggle="modal" data-target="#modalEnquiryForm" target="_blank"><button
           class="btn btn-primary card-hover-button" type="button"
           style="margin: 20px auto;display: block;background-color: #ED3237;border-radius: 8px;border: none;position: relative;height: 40px;width: 250px;font-size: 12px;">Subscribe
           Now &amp; Download Brochure</button></a>
@@ -589,7 +630,7 @@ aria-hidden="true" style="overflow: hidden;height:max-content">
       </div>
     </div>
 
-    <div class="row mb-2" style="margin-top: -70px;">
+    <div class="row mb-2" style="margin-top: 0px;">
       <div class="col-2">
         <div class="copyright">
           <p>

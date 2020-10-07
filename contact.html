@@ -94,15 +94,26 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-shadow">
   <div class="container">
 
-    <div class="site-logo">
-      <a href="index.html" class="d-block">
-        <img src="images/Logo.svg" alt="Image" class="img-link">
-      </a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" style="border:none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <div class="site-logo">
+      <a href="index.html" class="d-block">
+        <img src="images/Logo.svg" alt="Image" class="img-link" style="width:150px;">
+      </a>
+    </div>
+    
+    <div class="navbar-toggler" style="border: none; ">
+      <a class="nav-link btn-primary col-12 my-sm-0 btn" style="color: white;font-size: 14px;font-weight: 600;text-decoration: none;" href="#" data-toggle="modal"
+
+              data-target="#modalEnquiryForm">Enquiry now</a>
+    </div>
+    
+
+
+    
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -159,7 +170,7 @@
               data-target="#modalEnquiryForm">Enquiry now</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="tel:8600000069"><img src="./assets/img/headphone.svg" height="20" width="20" style="margin-right: 5px;margin-left: 8px;"/>8600000069</a>
+            <a class="nav-link " href="contact.html"><img src="./assets/img/headphone.svg" height="20" width="20" style="margin-right: 5px;margin-left: 8px;"/>8600000069</a>
           </li>
         </ul>
 
@@ -177,97 +188,9 @@
     </div>
 
     <div class="container" style="color: black;">
-      <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Contact Information</h4><button type="button" class="close" data-dismiss="modal"
-                aria-label="Close"><span aria-hidden="true">×</span></button>
-            </div>
-            <div class="modal-body">
-              <form id="contactForm" action="javascript:void();" method="get" type="hidden"><input class="form-control" type="hidden"
-                  name="Introduction" value="This email was sent from www.mywebsite.com"><input class="form-control"
-                  type="hidden" name="subject" value="My Contact Form"><input class="form-control" type="hidden"
-                  name="to" value="email@mywebsite.com">
-                <div class="form-row">
-                  <div class="col-md-6">
-                    <div id="modal-successful"></div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-md-6" id="modal-message">
-                    <fieldset>
-                      <legend><i class="fa fa-envelope"></i> Contact Us</legend>
-                    </fieldset>
-                    <div class="form-group has-feedback"><label for="modal_from_name">Name</label><input
-                        class="form-control" type="text" id="modal_from_name" tabindex="-1" name="from_name" required=""
-                        placeholder="Full Name"></div>
-                    <div class="form-group has-feedback"><label for="modal_from_email">Email</label><input
-                        class="form-control" type="email" id="modal_from_email" name="from_email" required=""
-                        placeholder="Email Address"></div>
-                    <div class="form-row">
-                      <div class="col-sm-6">
-                        <div class="form-group has-feedback"><label for="modal_from_phone">Phone</label><input
-                            class="form-control" type="text" id="modal_from_phone" name="from_phone"
-                            placeholder="Primary Phone"></div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group"><label for="modal_calltime">Best Time to Call</label><select
-                            class="form-control" id="modal_calltime" name="Call Time">
-                            <optgroup label="This is a group">
-                              <option value="12" selected="">This is item 1</option>
-                              <option value="13">This is item 2</option>
-                              <option value="14">This is item 3</option>
-                            </optgroup>
-                          </select></div>
-                      </div>
-                    </div>
-                    <div class="form-group"><label for="modal_comments">Comments</label><textarea class="form-control"
-                        id="modal_comments" name="Comments" placeholder="Enter comments here" rows="5"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send <i
-                          class="fa fa-chevron-circle-right"></i></button></div>
-                    <hr>
-                  </div>
-                  <div class="col-md-6">
-                    <fieldset>
-                      <legend> <i class="fa fa-location-arrow"></i> Locate Us</legend>
-                    </fieldset>
-                    <div class="form-row">
-                      <div class="col-md-12">
-                        <div class="static-map"><a
-                            href="https://www.google.com/maps/place/2+15th+St+NW+Washington+DC+20024"
-                            target="_blank"><img class="img-fluid"
-                              src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12"
-                              alt="Google Map of Washington Monument"></a></div>
-                      </div>
-                      <div class="col-sm-6">
-                        <fieldset>
-                          <legend><i class="fa fa-envelope"></i> Contact Us</legend>
-                        </fieldset>
-                        <div><span><strong>Name</strong></span></div>
-                        <div><span>email@address.com</span></div>
-                        <div><span>www.awebsite.com</span></div>
-                        <hr>
-                      </div>
-                      <div class="col-sm-6">
-                        <fieldset>
-                          <legend><i class="fa fa-location-arrow"></i> Our Address</legend>
-                        </fieldset>
-                        <div><span><strong>Office Name</strong></span></div>
-                        <div><span>55 Icannot Dr.</span></div>
-                        <div><span>Daytona Beach, FL 81500</span></div>
-                        <div><abbr data-toggle="tooltip" data-placement="top"
-                            title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <form id="contactForm" action="javascript:void();" method="get"><input class="form-control" type="hidden"
+      
+
+      <form id="contactForm"  method="POST" action="./test.php"><input class="form-control" type="hidden"
           name="Introduction" value="This email was sent from www.mywebsite.com"><input class="form-control"
           type="hidden" name="subject" value="My Contact Form"><input class="form-control" type="hidden" name="to"
           value="email@mywebsite.com">
@@ -282,20 +205,20 @@
               <legend style="font-size: 24px;">Get In Touch</legend>
               <p style="font-size: 14px;">&nbsp;Will get in touch with you</p>
             </fieldset>
-            <div class="form-group has-feedback"><input class="form-control" type="text" id="from_name" tabindex="-1"
-                name="from_name" required="" placeholder="Full Name"
+            <div class="form-group has-feedback"><input class="form-control" type="text" id="name" tabindex="-1"
+                name="name" required="" placeholder="Full Name"
                 style="color: black;font-weight: 500;font-size: 12px;"></div>
-            <div class="form-group has-feedback"><input class="form-control" type="email" id="from_email"
-                name="from_email" required="" placeholder="Email Address"
+            <div class="form-group has-feedback"><input class="form-control" type="email" id="email"
+                name="email" required="" placeholder="Email Address"
                 style="color: black;font-weight: 500;font-size: 12px;"></div>
             <div class="form-row">
               <div class="col-sm-6 col-lg-12 col-xl-12">
-                <div class="form-group has-feedback"><input class="form-control" type="text" id="from_phone"
-                    name="from_phone" placeholder="Primary Phone"
+                <div class="form-group has-feedback"><input class="form-control" type="text" id="mobile"
+                    name="mobile" placeholder="Primary Phone"
                     style="color: black;font-weight: 500;font-size: 12px;"></div>
               </div>
             </div>
-            <div class="form-group"><textarea class="form-control" rows="2" placeholder="Message"
+            <div class="form-group"><textarea id="message" name="message" class="form-control" rows="2" placeholder="Message"
                 style="font-weight: 500;color: black;font-size: 12px;" required=""></textarea></div>
             <div class="form-group"><button class="btn btn-primary btn-block card-hover-button" type="submit"
                 style="background-color: #ED3237;border-radius: 5px;font-size: 14px;border: none;">Submit</button></div>
@@ -351,7 +274,7 @@
           <h2 class="text-center" style="font-family:Poppins;font-size: 28px;font-weight:600;color: black;">Subscribe Our Newsletter &amp; Download Brochure</h2>
         </div>
       </div>
-      <a href="assets/prom.pdf" download="Prominent English" target="_blank"><button
+      <a href="#" data-toggle="modal" data-target="#modalEnquiryForm" target="_blank"><button
           class="btn btn-primary card-hover-button" type="button"
           style="margin: 20px auto;display: block;background-color: #ED3237;border-radius: 8px;border: none;position: relative;height: 40px;width: 250px;font-size: 12px;">Subscribe
           Now &amp; Download Brochure</button></a>
@@ -458,7 +381,7 @@
           </div>
         </div>
     
-        <div class="row mb-2" style="margin-top: -70px;">
+        <div class="row mb-2" style="margin-top: 0px;">
           <div class="col-2">
             <div class="copyright">
               <p>
