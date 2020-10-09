@@ -353,4 +353,88 @@ function checkAll(e,value) {
     
   }
 
+
+
+
+  function grandtotalEssentialSingle(e){
+   
+    const btn=document.getElementById("proceedbtn");
+   
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
+       <img src="images/logo.png" alt="Image" style=" position: relative;
+        font-weight: 900;
+        font-size: 1.3rem; ">
+        <h1>Prominent English Institute</h1>
+        <h3>Secure Payment Gateaway....</h3>Press This button to proceed!<br><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FcQr9WUAFE0FJi"> </script> </form>
+        </center>`);
+   
+    
+  }
+
+  function grandtotalInnovatorSingle(e){
+   
+    const btn=document.getElementById("proceedbtn");
+   
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
+       <img src="images/logo.png" alt="Image" style=" position: relative;
+        font-weight: 900;
+        font-size: 1.3rem; ">
+        <h1>Prominent English Institute</h1>
+        <h3>Secure Payment Gateaway....</h3>Press This button to proceed!<br><form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FcR9yLRnROBBbW"> </script> </form>
+        </center>`);
+   
+    
+  }
+
+  function grandtotalStimulatorSingle(e){
+   
+    const btn=document.getElementById("proceedbtn");
+   
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
+       <img src="images/logo.png" alt="Image" style=" position: relative;
+        font-weight: 900;
+        font-size: 1.3rem; ">
+        <h1>Prominent English Institute</h1>
+        <h3>Secure Payment Gateaway....</h3>Press This button to proceed!<br><form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FcRCkfWiQk5bWL"> </script> </form>
+        </center>`);
+   
+    
+  }
+
+
+  function grandtotalProminentSingle(e){
+   
+    const btn=document.getElementById("proceedbtn");
+   
+        document.write(`<center style="
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;">
+       <img src="images/logo.png" alt="Image" style=" position: relative;
+        font-weight: 900;
+        font-size: 1.3rem; ">
+        <h1>Prominent English Institute</h1>
+        <h3>Secure Payment Gateaway....</h3>Press This button to proceed!<br><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FcRd3NVlJ91z2w"> </script> </form>
+        </center>`);
+   
+    
+  }
+
+
+
+
+
   
